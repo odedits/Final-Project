@@ -1,0 +1,145 @@
+{
+    "title": "כניסה עם משתמש רשום",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 964,
+            "height": 713,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/account/signonForm",
+                    "title": "JPetStore Demo"
+                }
+            ],
+            "url": "https://jpetstore.aspectran.com/account/signonForm"
+        },
+        {
+            "type": "click",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/account/signonForm",
+                    "title": ""
+                }
+            ],
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Sign In"
+                ],
+                [
+                    "#MenuContent > a:nth-child(3)"
+                ],
+                [
+                    "xpath///*[@id=\"MenuContent\"]/a[2]"
+                ],
+                [
+                    "text/Sign In"
+                ]
+            ],
+            "offsetX": 17.212493896484375,
+            "offsetY": 10.92498779296875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Username:"
+                ],
+                [
+                    "#Signon > form > div > label:nth-child(2) > input[type=text]"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/label[1]/input"
+                ]
+            ],
+            "offsetX": 135,
+            "offsetY": 99.26248168945312
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Username:"
+                ],
+                [
+                    "#Signon > form > div > label:nth-child(2) > input[type=text]"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/label[1]/input"
+                ]
+            ],
+            "value": "j2ee"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Password:"
+                ],
+                [
+                    "#Signon > form > div > label:nth-child(3) > input[type=password]"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/label[2]/input"
+                ]
+            ],
+            "offsetX": 125,
+            "offsetY": 194.26248168945312
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Password:"
+                ],
+                [
+                    "#Signon > form > div > label:nth-child(3) > input[type=password]"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/label[2]/input"
+                ]
+            ],
+            "value": "abrakadabra"
+        },
+        {
+            "type": "click",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/",
+                    "title": ""
+                }
+            ],
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Login"
+                ],
+                [
+                    "#Signon > form > div > div > button"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/div/button"
+                ],
+                [
+                    "text/Login"
+                ]
+            ],
+            "offsetX": 11.42498779296875,
+            "offsetY": 20.46246337890625
+        }
+    ]
+}

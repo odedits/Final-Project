@@ -1,0 +1,172 @@
+{
+    "title": "כניסה עם משתמש רשום",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 964,
+            "height": 713,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://jpetstore.aspectran.com/account/signonForm",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/account/signonForm",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Sign In"
+                ],
+                [
+                    "#MenuContent > a:nth-child(3)"
+                ],
+                [
+                    "xpath///*[@id=\"MenuContent\"]/a[2]"
+                ],
+                [
+                    "text/Sign In"
+                ]
+            ],
+            "offsetY": 10.92498779296875,
+            "offsetX": 17.212493896484375,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/account/signonForm",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Username:"
+                ],
+                [
+                    "#Signon > form > div > label:nth-child(2) > input[type=text]"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/label[1]/input"
+                ]
+            ],
+            "offsetY": 99.26248168945312,
+            "offsetX": 135
+        },
+        {
+            "type": "change",
+            "value": "j2ee",
+            "selectors": [
+                [
+                    "aria/Username:"
+                ],
+                [
+                    "#Signon > form > div > label:nth-child(2) > input[type=text]"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/label[1]/input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Password:"
+                ],
+                [
+                    "#Signon > form > div > label:nth-child(3) > input[type=password]"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/label[2]/input"
+                ]
+            ],
+            "offsetY": 194.26248168945312,
+            "offsetX": 125
+        },
+        {
+            "type": "change",
+            "value": "j2ee",
+            "selectors": [
+                [
+                    "aria/Password:"
+                ],
+                [
+                    "#Signon > form > div > label:nth-child(3) > input[type=password]"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/label[2]/input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Login"
+                ],
+                [
+                    "#Signon > form > div > div > button"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/div/button"
+                ],
+                [
+                    "text/Login"
+                ]
+            ],
+            "offsetY": 20.46246337890625,
+            "offsetX": 11.42498779296875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Sign Out"
+                ],
+                [
+                    "#MenuContent > a:nth-child(7)"
+                ],
+                [
+                    "xpath///*[@id=\"MenuContent\"]/a[4]"
+                ],
+                [
+                    "text/Sign Out"
+                ]
+            ],
+            "offsetY": 11.92498779296875,
+            "offsetX": 46.42498779296875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
